@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Przykład nr 1</title>
+<script language="JavaScript">
+function WinOpen_Wisniewski()
+{
+window.open("grafika.html","_blank","toolbar=no,directories=no,menubar=no,height=280,width=160,top=600,left=400");
+}
+function WinOpen_Wisniewski1()
+{
+window.open("grafika1.html","_blank","toolbar=no,directories=no,menubar=no,height=280,width=160,top=600,left=600");
+}
+function WinOpen_Wisniewski2()
+{
+window.open("grafika2.html","_blank	","toolbar=no,directories=no,menubar=no,height=280,width=160,top=600,left=800");
+}
+function WinOpen_Wisniewski3()
+{
+window.open("grafika3.html","_blank","toolbar=no,directories=no,menubar=no,height=280,width=160,top=600,left=1000");
+}
+function okno_zamknij_Wisniewski()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" name="przycisk" value="grafika" onclick="WinOpen_Wisniewski(' ')">
+<input type="button" name="przycisk" value="grafika1" onclick="WinOpen_Wisniewski1(' ')">
+<input type="button" name="przycisk" value="grafika2" onclick="WinOpen_Wisniewski2(' ')">
+<input type="button" name="przycisk" value="grafika3" onclick="WinOpen_Wisniewski3(' ')">
+<input type="button" value="zamknij okno" onclick="okno_zamknij_Wisniewski()"/>
+</form>
+</body>
+</html>
